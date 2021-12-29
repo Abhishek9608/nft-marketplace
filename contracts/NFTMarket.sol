@@ -137,7 +137,7 @@ contract NFTMarket is ReentrancyGuard{
             }
         }
 
-
+      return items;
 
     }
 
@@ -161,6 +161,6 @@ contract NFTMarket is ReentrancyGuard{
                 currentIndex +=1;
             }
         }
-        return item;
+        return items;
     }
 }
